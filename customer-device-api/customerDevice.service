@@ -1,0 +1,9 @@
+[Unit]
+Description=customerDevice
+Requires=xterms.service collectd.service
+After=network.target xterms.service collectd.service
+[Service]
+WorkingDirectory=/home/puzzle/customerDeviceAPI
+ExecStart=/usr/bin/python3 /home/puzzle/customerDeviceAPI/run.py
+[Install]
+WantedBy=multi-user.target

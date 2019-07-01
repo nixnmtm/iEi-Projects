@@ -1,0 +1,10 @@
+[Unit]
+Description=dScanning
+Requires=network-online.target
+Wants=network-online.target
+After=network.target network-online.target deviceAgent.service
+[Service]
+WorkingDirectory=/home/puzzle/dScanningClient/device_client
+ExecStart=/usr/bin/python3 /home/puzzle/dScanningClient/device_client/device_scan.py
+[Install]
+WantedBy=multi-user.target

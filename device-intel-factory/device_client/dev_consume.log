@@ -1,0 +1,19 @@
+INFO:pika.adapters.base_connection:Connecting to 127.0.0.1:5672
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:root:[*] Waiting for Device serial numbers. To exit press CTRL+C
+INFO:root:----------Scanning Started----------
+INFO:root:Populating hardware datas from device ===> Sl.No: 1007
+INFO:root:1007 is not in the scan list
+INFO:root:Publishing to device server side
+INFO:root:----------Scanning Started----------
+INFO:root:Populating hardware datas from device ===> Sl.No: 1007
+INFO:root:1007 is not in the scan list
+INFO:root:Publishing to device server side
+INFO:root:----------Scanning Started----------
+INFO:root:Populating hardware datas from device ===> Sl.No: 1007
+INFO:root:1007 is not in the scan list
+INFO:root:Publishing to device server side
+INFO:root:----------Scanning Started----------
+INFO:root:Populating hardware datas from device ===> Sl.No: 1005
+INFO:root:1005 is not in the scan list
+INFO:root:Publishing to device server side

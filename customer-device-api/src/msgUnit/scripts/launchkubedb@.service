@@ -1,0 +1,5 @@
+[Unit]
+Description=Kubernetes Dashboard Service
+[Service]
+Environment="DEVICE_IP=%I"
+ExecStart=/bin/bash -c 'kubectl --kubeconfig=/etc/kubernetes/admin.conf --address='$'$DEVICE_IP --accept-hosts='.*' proxy &>/dev/null'

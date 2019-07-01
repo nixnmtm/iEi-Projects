@@ -1,0 +1,15 @@
+apiVersion: kubeadm.k8s.io/v1alpha2
+kind: MasterConfiguration
+api:
+  advertiseAddress:
+  bindPort: 6443
+  scheme: HTTP
+etcd:
+  endpoints:
+  - "http://:2379"
+apiServerCertSANs:
+- "127.0.0.1"
+networking:
+  podSubnet: 
+token:
+tokenTTL: "0"

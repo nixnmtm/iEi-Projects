@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# Copy and save it as "pzl_ScanSetup.sh" and Run this script to setup puzzle scanning in device and server
+# eg: pzl_ScanSetup.sh device --------> Device Side
+#     pzl_ScanSetup.sh server --------> Server Side
+
+date
+echo admin | sudo -S su
+
+apt install git
+apt-get install python3-pip
+
+cd ~
+rm -rf Puzzle_Scanning
+git clone -b PuzzleScanDev --single-branch http://40.74.91.221/puzzle/device-intel-factory.git Puzzle_Scanning
+cd Puzzle_Scanning
+
+# Device side setup
+if [ $1 == "device" ];
+then ./device_setup.sh
+fi
+
+# Server side setup
+if [ $1 == "server" ];
+then ./server_setup.sh
+fi
+
+exit
+

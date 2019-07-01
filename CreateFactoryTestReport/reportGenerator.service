@@ -1,0 +1,8 @@
+[Unit]
+Description=reportGenerator
+After=network.target network-online.target
+[Service]
+WorkingDirectory=/home/test/EdgeServer/FactoryTestReport/generateReport
+ExecStart=/usr/bin/python3 /home/test/EdgeServer/FactoryTestReport/generateReport/generateReport.py
+[Install]
+WantedBy=multi-user.target

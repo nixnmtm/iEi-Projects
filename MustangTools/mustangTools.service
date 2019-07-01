@@ -1,0 +1,9 @@
+[Unit]
+Description=mustangTools
+After=network-online.target
+Wants=network-online.target
+[Service]
+WorkingDirectory=/home/test/EdgeServer/mustangTools
+ExecStart=/usr/bin/python3 /home/test/EdgeServer/mustangTools/mustangTools.py
+[Install]
+WantedBy=multi-user.target

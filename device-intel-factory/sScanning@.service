@@ -1,0 +1,9 @@
+[Unit]
+Description=sScanning
+After=network.target
+[Service]
+WorkingDirectory=/home/test/EdgeServer/sScanningServer
+Environment="IP_PORT=%I"
+ExecStart=/usr/bin/python3 /home/test/EdgeServer/sScanningServer/server_scan.py $IP_PORT
+[Install]
+WantedBy=multi-user.target

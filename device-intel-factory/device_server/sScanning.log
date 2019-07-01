@@ -1,0 +1,10 @@
+10/31/2018 03:08:45 PM Connecting to 10.10.70.151:5672
+10/31/2018 03:08:45 PM Created channel=1
+10/31/2018 03:08:45 PM [*] Waiting for client device information. To exit press CTRL+C
+10/31/2018 03:08:49 PM Received in server:
+{'operationId': '72c8f35e-4392-4a92-bb1c-074a6c600717', 'operatorId': 'QNAP', 'ip': '10.10.70.183', 'macinfo': {}, 'scanMode': 0, 'sn': 'M196763783'}
+10/31/2018 03:08:49 PM M196763783 --> burnInStatus: True
+10/31/2018 03:08:49 PM M196763783 is in Burn-In Stage. Skipping
+10/31/2018 03:08:50 PM Devices Scanned: []
+10/31/2018 03:08:50 PM Error in accumulating datalist index out of range
+10/31/2018 03:08:50 PM Real scanning failed'NoneType' object is not subscriptable

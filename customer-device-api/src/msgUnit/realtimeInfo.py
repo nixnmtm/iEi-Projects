@@ -1,0 +1,2 @@
+puzzleDevices = {}
+mqttConnList = []

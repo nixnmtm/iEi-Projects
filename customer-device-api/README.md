@@ -1,4 +1,4 @@
 ## ALL API:
-### [Control Panel](http://40.74.91.221/puzzle/device-all-factory/blob/DevControlPanel/devControlPanel/README.md#devcpinfo-api) @ramesh @Nixon
-### [App Center](http://40.74.91.221/puzzle/customer-device-api/blob/App_Centre/appCenter/README.md) @ramesh @Nixon
+### [Control Panel](https://github.com/nixnmtm/iEi-Projects/blob/master/customer-device-api/README_Controlpanel.md) @Nixon
+### [App Center](https://github.com/nixnmtm/iEi-Projects/blob/master/customer-device-api/README_Appcentre.md) @Nixon
 ### [Device Info]() @randolphlin
